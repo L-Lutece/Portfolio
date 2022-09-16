@@ -1,6 +1,7 @@
 import React from "react";
 import './Project.css';
 import img1 from '../images/jssf.jpg';
+import { SiVercel, SiGithub} from "react-icons/si";
 
 function Project() {
     return (
@@ -11,6 +12,12 @@ function Project() {
                     <div className="PAll">
                         <div className="P1">
                             <div className="titleP1">Relógio com JS</div>
+                            <div className="containerIcon">
+                                <div className="icons">
+                                    <a href='https://jsc-loack-l-lutece.vercel.app/'><SiVercel size={40}/></a>
+                                    <a href='https://github.com/L-Lutece/JSCloack'><SiGithub size={40}/></a>
+                                </div>
+                            </div>
                         </div>                       
                         <div className="P2">
                             <div className="titleP">Cat</div>

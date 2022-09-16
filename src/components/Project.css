@@ -12,6 +12,28 @@
     overflow-y: hidden;
 }
 
+.P1:hover .icons {
+    display: block;
+    top: 40px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(60, 57, 57);
+    opacity: 0.9;
+}
+
+.icons {
+    top: 40px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(60, 57, 57);
+    display: none;
+}
+
+
 .section2 {
     position: relative;
     width: 1368px;
