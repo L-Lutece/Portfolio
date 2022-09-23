@@ -16,7 +16,6 @@
     width: 90%;
     height: 350px;
     background-color: rgb(42, 40, 40);
-    top: 50px;
     left: 70px;
 }
 
@@ -41,5 +40,5 @@
     margin: 0 auto;
     font-size: 20px;
     color:aliceblue;
-    padding-top: 100px;
+    padding-top: 65px;
 }

@@ -20,19 +20,45 @@ function Project() {
                             </div>
                         </div>                       
                         <div className="P2">
-                            <div className="titleP">Cat</div>
+                            <div className="titleP">Primeiro site</div>
+                            <div className="containerIcon">
+                                <div className="icons">
+                                    <a href=""><SiVercel size={40}/></a>
+                                    <a href="https://github.com/L-Lutece/restaurant-interface"><SiGithub size={40}/></a>
+                                </div>
+                            </div>
                         </div>
                         <div className="P3">
-                            <div className="titleP">Loness</div>
+                            <div className="titleP"></div>
+                            <div className="containerIcon">
+                                <div className="icons1">
+                                    <h6>EM ANDAMENTO</h6>
+                                </div>
+                            </div>
                         </div>
                         <div className="P4">
-                            <div className="titleP">Depp</div>
+                            <div className="titleP"></div>
+                            <div className="containerIcon">
+                                <div className="icons1">
+                                    <h6>EM ANDAMENTO</h6>
+                                </div>
+                            </div>
                         </div>
                         <div className="P5">
-                            <div className="titleP">Soles</div>
+                            <div className="titleP"></div>
+                            <div className="containerIcon">
+                                <div className="icons1">
+                                    <h6>EM ANDAMENTO</h6>
+                                </div>
+                            </div>
                         </div>
                         <div className="P6">
-                            <div className="titleP">FAke</div>
+                            <div className="titleP"></div>
+                            <div className="containerIcon">
+                                <div className="icons1">
+                                    <h6>EM ANDAMENTO</h6>
+                                </div>
+                            </div>
                         </div>
                     </div>
                </div>
