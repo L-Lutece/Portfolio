@@ -2,7 +2,7 @@ import React from "react";
 import './Stack.css';
 import { DiMysql, DiSass, DiLess, DiPython} from "react-icons/di";
 import { DiTerminal, DiReact, DiCss3, DiJavascript1, DiNodejsSmall, DiBootstrap, DiKrakenjsBadge, DiVisualstudio} from "react-icons/di";
-import { DiHtml5, DiGit, DiGithubBadge, DiNpm, } from "react-icons/di";
+import { DiHtml5, DiGit, DiGithubBadge, DiNpm, DiJqueryLogo} from "react-icons/di";
 import { FaArrowsAltV } from "react-icons/fa";
 
 function Stack() {
@@ -35,6 +35,7 @@ function Stack() {
                                 <DiGit color="#f56008" title="Git" fontSize={100} id="icon"/>
                                 <DiGithubBadge color="black" title="Github" fontSize={100} id="icon"/>
                                 <DiNpm color="#be2f3c" title="NPM" fontSize={100} id="icon"/>
+                                <DiJqueryLogo color="#307cc6" title="jQuery" fontSize={100} id="icon"/>
                             </div>
                         </div>
                         

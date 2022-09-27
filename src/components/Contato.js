@@ -9,13 +9,14 @@ function Contato() {
                     <h3 className="title">CONTATO</h3>
                     <div className="hold">
                         <div className="list">
-                            <h3>Entre em contato comigo através dessas redes</h3>
-                            <br></br>
-                            <p> datsik771@outlook.com | (31) 99795-3443</p>
-                            <br></br>
-                            <p>https://www.linkedin.com/in/lucas-rodrigues-830636202/</p>
+                            <p> datsik771@outlook.com | (31) 99795-3443</p>    
                         </div>
                     </div>
+                    <div className="hold1">
+                        <div className="list1">    
+                            <a href="https://www.linkedin.com/in/lutece771/">LinkedIn</a>
+                        </div>
+                    </div>    
                 </div>
             </div>
         </div>
