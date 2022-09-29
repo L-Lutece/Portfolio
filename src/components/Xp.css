@@ -4,7 +4,6 @@
     font-family: 'Epilogue', sans-serif;
 }
 
-
 .App {
     background-color: rgb(32, 32, 32);
     height: 100%;
@@ -12,7 +11,7 @@
     overflow-y: hidden;
 }
 
-.section3 {
+.sectionXp {
     position: relative;
     width: 90%;
     height: 800px;

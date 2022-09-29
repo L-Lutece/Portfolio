@@ -3,14 +3,13 @@ import './Stack.css';
 import { DiMysql, DiSass, DiLess, DiPython} from "react-icons/di";
 import { DiTerminal, DiReact, DiCss3, DiJavascript1, DiNodejsSmall, DiBootstrap, DiKrakenjsBadge, DiVisualstudio} from "react-icons/di";
 import { DiHtml5, DiGit, DiGithubBadge, DiNpm, DiJqueryLogo} from "react-icons/di";
-import { FaArrowsAltV } from "react-icons/fa";
 
 function Stack() {
 
     return (
-        <div className="container">
+        <div className="containerStack">
             <div className="App">
-                <div className="section1" id="stack">
+                <div className="sectionStack" id="stack">
                     <h3 class="title">STACK</h3>
                     <div className="fManager">
                         <div className="fContainer">
@@ -45,7 +44,7 @@ function Stack() {
                             <div className="stackTextAreaS">
                                 <div className="stackTextT">
                                     <h4>Intermediário</h4>
-                                    <p>São tecnologias que uso bastante e em varios momentos, mas realizo consultas para usar.</p>
+                                    <p>São tecnologias que uso bastante e tenho um conhecimento OK, mas realizo consultas para usar.</p>
                                 </div>
                             </div>
                             <div className="tBlock">

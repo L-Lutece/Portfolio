@@ -4,15 +4,14 @@
     font-family: 'Epilogue', sans-serif;
 }
 
-
 .App {
     background-color:rgb(32, 32, 32);
     height: 100%;
-    overflow-x: hidden;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
-.section {
+.sectionApp {
     position: relative;
     width: 90%;
     height: 750px;
@@ -34,7 +33,7 @@
 .description {
     position: relative;
     font-size: 25px;
-    left: 110px;
+    left: 115px;
     top: 290px;
     font-style: italic;
     color: rgb(157, 156, 152);
@@ -53,36 +52,37 @@
 
 
 
-@media (max-width: 500px) {
-    .section {
+@media (max-width: 320px) {
+
+    .sectionApp {
         position: relative;
         width: 100%;
-        height: 900px;
-        display: inline-block;
-        align-items: center;
-        justify-content: center;
+        height: 750px;
+        background-color: rgb(42, 40, 40);
+        top: 50px;
+        left: 0px;
     }
     
     .name {
         position: relative;
+        left: 20px;
         font-size: 40px;
-        left: 40px;
-        top: 50px;
+        top: 20px;
         color: rgb(251, 251, 251);
     }
 
     .description {
         position: relative;
-        font-size: 9px;
+        font-size: 20px;
         left: 30px;
-        top: 60px;
+        top: 30px;
         color: rgb(157, 156, 152);
     }
 
     .logo {
         position: relative;
-        left: 50px;
-        top:120px;
+        left: 35px;
+        top: 40px;
         width: 250px;
         height: 500px;
         background: url('../images/logo_transparent.png') no-repeat center;

@@ -3,9 +3,9 @@ import './Xp.css';
 
 function Xp() {
     return (
-        <div className="container">
+        <div className="containerXp" id="xp">
             <div className="App">
-                <div className="section3" id="xp">
+                <div className="sectionXp">
                     <h3 className="title">EXPERIÊNCIA</h3>
                     <div className="xpC">
                         <div className="xpT">

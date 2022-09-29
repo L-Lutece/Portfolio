@@ -29,14 +29,8 @@ a:hover {
     background-color:  rgb(60, 57, 57); 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 320px) {
     .Header {
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 360px) {
-    .Header {
-        font-size: 9px;
+        font-size: 10px;
     }
 }

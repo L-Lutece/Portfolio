@@ -3,7 +3,7 @@ import './Header.css'
 
 function Header() {
     return (
-    <div className="container">
+    <div className="containerHeader">
         <div className="Header">
             <div className="items">
                 <a href="#stack">STACK</a>

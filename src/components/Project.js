@@ -5,9 +5,9 @@ import { SiVercel, SiGithub} from "react-icons/si";
 
 function Project() {
     return (
-        <div className="container">
+        <div className="containerProject" id="project">
             <div className="App">
-                <div className="section2" id="project">
+                <div className="sectionProject">
                     <h3 className="title">PROJETOS</h3>
                     <div className="PAll">
                         <div className="P1">

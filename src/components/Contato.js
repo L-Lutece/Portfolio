@@ -3,9 +3,9 @@ import './Contato.css';
 
 function Contato() {
     return (
-        <div className="container">
+        <div className="containerContato" id="contato">
             <div className="App">
-                <div className="section4" id="contato">
+                <div className="sectionContato">
                     <h3 className="title">CONTATO</h3>
                     <div className="hold">
                         <div className="list">
