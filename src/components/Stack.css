@@ -154,14 +154,151 @@ h4 {
     cursor: pointer;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
 
     .sectionStack {
         position: relative;
         width: 100%;
-        height: 800px;
+        height: 1000px;
         background-color: rgb(42, 40, 40);
         justify-content: center;
         align-items: center;
+        left: 0px;
+    }
+    
+    h4 {
+        font-size: 25px;
+    }
+    
+    .title {
+        height: auto;
+        font-size: 25px;
+        background-color: rgb(60, 57, 57);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(155, 152, 152);
+        padding: 20px;
+    }
+    
+    .fManager {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fContainer {
+        position: relative;
+        height: auto;
+        display: block;
+        margin-top: 1%;
+        width: 100%;
+    }
+     
+    .stackTextArea {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+    
+    .stackText {
+        position: relative;
+        width: 90%;
+        left: 20px;
+        padding-top: 13px;
+        padding-bottom: 6px;
+        color: aliceblue;
+        border-top: 3px solid grey;
+    }
+    
+    .stackTextS {
+        position: relative;
+        width: 90%;
+        left: 20px;
+        top: 580px;
+        padding-top: 10px;
+        padding-bottom: 6px;
+        color: aliceblue;
+        border-top: 3px solid grey;
+    }
+    
+    .stackTextArea {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+    
+    /* Segundo container */
+    
+    .sContainer {
+        position: absolute;
+        height: 260px;
+        margin-top: -350px;
+        width: 100%;
+        border-radius: 4px;
+    }
+    
+    .stackTextAreaS {
+        position: relative;
+        width: 100%;
+        display: flex;
+    }
+    
+    .stackTextT {
+        position: relative;
+        width: 90%;
+        top: 150px;
+        left: 20px;
+        padding-top: 13px;
+        padding-bottom: 6px;
+        color: aliceblue;
+        border-top: 3px solid grey;
+    }
+    
+    /* Blocos */
+    
+    .fBlock {
+        position: relative;
+        top: -70px;
+        width: 90%;
+        left: 20px;
+        height: 100px;
+        background-color: rgb(60, 57, 57);
+        border-radius: 4px;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+    }
+    
+    #icon:hover {
+        transition: transform .5s;
+        transform: scale(1.1)
+    }
+    
+    .sBlock {
+        position: relative;
+        top: 510px;
+        width: 90%;
+        left: 20px;
+        height: 100px;
+        background-color: rgb(60, 57, 57);
+        border-radius: 4px;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .tBlock {
+        position: relative;
+        top: 240px;
+        width: 90%;
+        left: 20px;
+        height: 300px;
+        background-color: rgb(60, 57, 57);
+        border-radius: 4px;
+        flex-wrap: wrap;
+        cursor: pointer;
     }
 }

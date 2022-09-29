@@ -17,7 +17,7 @@
     left: 3px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     .SideBar {
         position: absolute;
         display: none;

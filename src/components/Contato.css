@@ -51,6 +51,7 @@
     margin: 0 auto;
     cursor: pointer;
     color: aliceblue;
+    display: none;
 }
 
 .hold1 {
@@ -61,13 +62,28 @@
     margin-top: 30px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
 
     .sectionContato {
         position: relative;
         width: 100%;
-        height: 750px;
+        height: 250px;
         background-color: rgb(42, 40, 40);
-        top: 50px;
+        left: 0px;
     }
+
+    .hold {
+        position: relative;
+        width: 90%;
+        left: 40px;
+    }
+
+    .list1 {
+        font-size: 20px;
+        margin: 0 auto;
+        cursor: pointer;
+        color: aliceblue;
+        display: block;
+    }
+
 }

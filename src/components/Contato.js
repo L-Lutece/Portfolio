@@ -15,6 +15,8 @@ function Contato() {
                     <div className="hold1">
                         <div className="list1">    
                             <a href="https://www.linkedin.com/in/lutece771/">LinkedIn</a>
+                            <a href="https://github.com/L-Lutece">Github</a>
+                            <a href="https://1drv.ms/w/s!AoeTPjBJhtYXg7tALt__Oo5KCMz7Ww?e=8oRwbf">Currículo</a>
                         </div>
                     </div>    
                 </div>
