@@ -23,7 +23,7 @@ function Project() {
                             <div className="titleP">Primeiro site</div>
                             <div className="containerIcon">
                                 <div className="icons">
-                                    <a href=""><SiVercel size={40}/></a>
+                                    <a href="https://restaurant-interface.vercel.app/"><SiVercel size={40}/></a>
                                     <a href="https://github.com/L-Lutece/restaurant-interface"><SiGithub size={40}/></a>
                                 </div>
                             </div>
