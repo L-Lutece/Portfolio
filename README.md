@@ -1,5 +1,7 @@
 In the project directory (lub), you can run:
 
+all made in React.js
+
 ### `npm start`
 
 Runs the app in the development mode.\
