@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import logo from '../images/logo_transparent.png';
 
 
 function App() {
@@ -17,5 +16,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

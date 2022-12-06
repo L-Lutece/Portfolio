@@ -22,6 +22,22 @@
     left: 70px;
 }
 
+.countSovt {
+    position: absolute;
+    color: aliceblue;
+    width: 300px;
+    height: 79px;
+    background-color: rgb(32, 32, 32);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#count {
+    color: yellow;
+}
+
 .name {
     position: relative;
     font-size: 80px;
@@ -52,7 +68,7 @@
 
 
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
 
     .sectionApp {
         position: relative;

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,700&family=Outfit:wght@400;700&display=swap');
 
 * {
+    box-sizing: border-box;
     font-family: 'Epilogue', sans-serif;
 }
 
@@ -14,16 +15,88 @@
 .sectionProject {
     position: relative;
     width: 1368px;
-    height: 800px;
+    height: 700px;
     background-color: rgb(42, 40, 40);
     justify-content: center;
     align-items: center;
     left: 70px;
 }
 
+/*////////////////////////////////////////////////////////////////////////*/
+                            /*GRID ONE*/
+/*////////////////////////////////////////////////////////////////////////*/
+
+.grid {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.gridOne {
+    position: relative;
+    width: 100%;
+    height: 45%;
+    display: flex;
+}
+.P1 {
+    position: relative;
+    width: 33.3%;
+    height: 100%;
+    background-image: url(../images/jssf.jpg);
+}
+.P2 {
+    position: relative;
+    width: 33.3%;
+    height: 100%;
+    background-image: url(../images/res.jpg);
+    background-repeat: no-repeat, no-repeat;
+}
+.P3 {
+    position: relative;
+    width: 33.5%;
+    height: 101%;
+    background-image: url(../images/Neocities.jpg);
+    background-repeat: no-repeat, no-repeat;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+                    /*GRID ONE ---- GRID TWO*/
+/*////////////////////////////////////////////////////////////////////////*/
+
+.gridTwo {
+    position: relative;
+    width: 100%;
+    height: 55%;
+    display: flex;
+}
+.P4 {
+    position: relative;
+    width: 33.3%;
+    height: 100%;
+    background-image: url(../images/lance.jpg);
+    background-repeat: no-repeat, no-repeat;
+}
+.P5 {
+    position: relative;
+    width: 33.3%;
+    height: 100%;
+    background-image: url(../images/obra1.jpg);
+    background-repeat: no-repeat, no-repeat;
+}
+.P6 {
+    position: relative;
+    width: 33.3%;
+    height: 100%;
+    background-image: url(../images/obra2.jpg);
+    background-repeat: no-repeat, no-repeat;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+                    /*GRID TWO ---- HOVER*/
+/*////////////////////////////////////////////////////////////////////////*/
+
 .P1:hover .icons {
     display: block;
-    top: 40px;
+    top: 100px;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -32,11 +105,9 @@
     opacity: 0.9;
     transition: 3s;
 }
-
-
 .P2:hover .icons {
     display: block;
-    top: 40px;
+    top: 100px;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -45,6 +116,32 @@
     opacity: 0.9;
     transition: 3s;
 }
+.P3:hover .icons {
+    display: block;
+    top: 100px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(60, 57, 57);
+    opacity: 0.9;
+    transition: 3s;
+}
+.P4:hover .icons {
+    display: block;
+    top: 100px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(60, 57, 57);
+    opacity: 0.9;
+    transition: 3s;
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+                    /*HOVER ---- ICONS-TITLE*/
+/*////////////////////////////////////////////////////////////////////////*/
 
 .icons1 {
     font-size: 40px;
@@ -55,8 +152,6 @@
     display: flex;
     background-color: rgb(60, 57, 57);
 }
-
-
 .icons {
     top: 40px;
     position: relative;
@@ -66,89 +161,29 @@
     background-color: rgb(60, 57, 57);
     display: none;
 }
-
-
-
-
-.title {
-    height: auto;
-    font-size: 25px;
-    background-color: rgb(60, 57, 57);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(155, 152, 152);
-    padding: 20px;
-}
-
-.PAll {
-    position: relative;
-    top: 45px;
-    justify-content: center;
-}
-
-.P1 {
-    float: left;
-    width: 26%;
-    height: 220px;
-    background-image: url(../images/jssf.jpg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: center;
-    margin: 40px 40px 0px 55px;
-    border-radius: 11px;
-}
-
-.P2 {
-    float: left;
-    width: 26%;
-    height: 220px;
-    background-image: url(../images/rest.jpg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: center;
-    margin: 40px 40px 0px 55px;
-    border-radius: 11px;
-}
-
-.P3, .P4, .P5, .P6 {
-    float: left;
-    width: 26%;
-    height: 220px;
-    background: rgb(60, 57, 57);
-    image-rendering: auto;
-    image-resolution: no-repeat;
-    margin: 40px 40px 0px 55px;
-    border-radius: 11px;
-}
-
-.titleP1 {
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
-    color: rgb(180, 180, 180);
-    display: flex;
-    background-color: rgb(60, 57, 57);
-}
-
 .titleP {
     padding: 5px;
     align-items: center;
     justify-content: center;
-    color: rgb(180, 180, 180);
+    color: rgb(163, 160, 160);
     display: flex;
     background-color: rgb(60, 57, 57);
+    font-weight: 700;
 }
+
+/*////////////////////////////////////////////////////////////////////////*/
+                    /*ICONS-TITLE ---- MEDIAQUERY*/
+/*////////////////////////////////////////////////////////////////////////*/
 
 @media (max-width: 425px) {
 
     .sectionProject {
         position: relative;
         width: 100%;
-        height: 575px;
+        height: 100%;
         background-color: rgb(42, 40, 40);
         left: 0px;
     }
-
-    
     .icons {
         top: 40px;
         position: relative;
@@ -157,12 +192,22 @@
         background-color: rgb(60, 57, 57);
         display: block;
     }
-
-    .PAll {
+    .grid {
         position: relative;
         width: 100%;
         height: 100%;
-        display: inline-block;
+    }
+    .gridOne {
+        position: relative;
+        width: auto;
+        background-color: red;
+        height: 200px;
+    }
+    .gridTwo {
+        position: relative;
+        width: auto;
+        background-color: yellow;
+        height: 200px;
     }
     
     .P1 {
@@ -183,13 +228,37 @@
         left: -55px;
         top: -35px;
         height: -100px;
-        background-image: url(../images/rest.jpg);
+        background-image: url(../images/res.jpg);
         background-repeat: no-repeat, no-repeat;
         background-position: center;
         border-radius: 2px;
     }
 
-    .P3, .P4, .P5, .P6 {
+    .P3 {
+        position: relative;
+        width: 100%;
+        left: -55px;
+        top: -35px;
+        height: -100px;
+        background-image: url(../images/Neocities.jpg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: center;
+        border-radius: 2px;
+    }
+
+    .P4 {
+        position: relative;
+        width: 100%;
+        left: -55px;
+        top: -35px;
+        height: -100px;
+        background-image: url(../images/lance.jpg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: center;
+        border-radius: 2px;
+    }
+
+    .P5, .P6 {
         float: left;
         width: 26%;
         height: 220px;
