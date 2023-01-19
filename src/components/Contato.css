@@ -15,7 +15,7 @@
     position: relative;
     width: 90%;
     height: 200px;
-    background-color: rgb(42, 40, 40);
+    background-color: #2a2828;
     justify-content: center;
     align-items: center;
     left: 70px;
@@ -24,7 +24,7 @@
 .title {
     height: auto;
     font-size: 25px;
-    background-color: rgb(60, 57, 57);
+    background-color: #2a2828;
     display: flex;
     justify-content: center;
     align-items: center;
