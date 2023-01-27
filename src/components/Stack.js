@@ -10,7 +10,7 @@ function Stack() {
         <div className="containerStack">
             <div className="App">
                 <div className="sectionStack" id="stack">
-                    <h3 className="title">STACK</h3>
+                    <h3 className="title_stack">STACK</h3>
                     <div className="fManager">
                         <div className="fContainer">
                             <div className="stackTextArea">

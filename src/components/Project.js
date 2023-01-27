@@ -1,6 +1,8 @@
 import React from "react";
 import './Project.css';
 import { SiVercel, SiGithub} from "react-icons/si";
+import Video from "../images/Strands-video.mp4";
+import Videoc from "../images/cloack.mp4";
 
 function Project() {
     return (
@@ -8,68 +10,47 @@ function Project() {
             <div className="App">
                 <div className="sectionProject">
                     <h3 className="title">PROJETOS</h3>
-                    <div className="grid">
-                        <div className="gridOne">
-                            <div className="P1">
-                                <div className="titleP">Relógio com JS</div>
-                                <div className="containerIcon">
-                                    <div className="icons">
-                                        <a href='https://jsc-loack-l-lutece.vercel.app/'><SiVercel size={40}/></a>
-                                        <a href='https://github.com/L-Lutece/JSCloack'><SiGithub size={40}/></a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div className="P2">
-                                <div className="titleP">Primeiro site</div>
-                                <div className="containerIcon">
-                                    <div className="icons">
-                                        <a href="https://restaurant-interface.vercel.app/"><SiVercel size={40}/></a>
-                                        <a href="https://github.com/L-Lutece/restaurant-interface"><SiGithub size={40}/></a>
-                                    </div>
-                                </div>
-                            </div> 
-                            <div className="P3">
-                                <div className="titleP">NeoCities</div>
-                                <div className="containerIcon">
-                                    <div className="icons">
-                                        <a href="https://luteceweb.neocities.org/"><SiVercel size={40}/></a>
-                                        <a href="https://github.com/L-Lutece/neoCities"><SiGithub size={40}/></a>
-                                    </div>
-                                </div>
+                    <div className="sovt_project">
+
+                        <div className="block_1">
+                            <div className="title_block">
+                                <h4>Browser-api's</h4>
+                            </div>    
+                            <div className="image_block">
+                                <video src={Video} controls/>
+                            </div>
+                            <div className="area">
+                                <button className="button-23">
+                                    <a href="https://browser-apis-gjza.vercel.app/" className="link"><SiVercel size={35}/></a>
+                                </button>
+                                <button className="button-23">
+                                    <a href="https://github.com/L-Lutece/browser-apis" className="link"><SiGithub size={35}/></a>
+                                </button>
                             </div>
                         </div>
-                        <div className="gridTwo">
-                            <div className="P4">
-                                <div className="titleP">Lance</div>
-                                <div className="containerIcon">
-                                    <div className="icons">
-                                        <a href=""><SiVercel size={40}/></a>
-                                        <a href="https://github.com/L-Lutece/Lance"><SiGithub size={40}/></a>
-                                    </div>
-                                </div>
+
+                        <div className="block_2">
+                            <div className="title_block">
+                                <h4>Relógio com JavaScript</h4>
+                            </div>    
+                            <div className="image_block">
+                                <video src={Videoc} controls/>
                             </div>
-                            <div className="P5">
-                            <div className="titleP">EM ANDAMENTO</div>
-                            <div className="containerIcon">
-                                <div className="icons1">
-                                    
-                                </div>
-                            </div>
-                            </div>
-                            <div className="P6">
-                                <div className="titleP">EM ANDAMENTO</div>
-                                <div className="containerIcon">
-                                    <div className="icons1">
-                                        
-                                    </div>
-                                </div>
+                            <div className="area">
+                                <button className="button-23">
+                                    <a href="https://jsc-loack.vercel.app/" className="link"><SiVercel size={35}/></a>
+                                </button>
+                                <button className="button-23">
+                                    <a href="https://github.com/L-Lutece/JSCloack" className="link"><SiGithub size={35}/></a>
+                                </button>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Project;

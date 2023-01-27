@@ -15,8 +15,9 @@
     position: relative;
     width: 90%;
     height: 800px;
-    background-color: rgb(42, 40, 40);
+    background-color: rgb(32, 32, 32);
     justify-content: center;
+    top: 10px;
     align-items: center;
     left: 70px;
 }
@@ -25,10 +26,9 @@ h4 {
     font-size: 25px;
 }
 
-.title {
+.title_stack{
     height: auto;
     font-size: 25px;
-    background-color: rgb(60, 57, 57);
     display: flex;
     justify-content: center;
     align-items: center;
