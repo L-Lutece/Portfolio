@@ -38,44 +38,10 @@ function Project() {
                             </div>
                             <div className="area">
                                 <button className="button-23">
-                                    <a href="https://restaurant-interface.vercel.app/" className="link"><SiVercel size={35}/></a>
+                                    <a href="https://jsc-loack.vercel.app/" className="link"><SiVercel size={35}/></a>
                                 </button>
                                 <button className="button-23">
-                                    <a href="https://github.com/L-Lutece/restaurant-interface" className="link"><SiGithub size={35}/></a>
-                                </button>
-                            </div>
-                        </div>
-
-                        <div className="block_3">
-                            <div className="title_block">
-                                <h4>Primeiro site restaurant</h4>
-                            </div>    
-                            <div className="image_block">
-                                <video src="./images/video1.mp4" controls></video>
-                            </div>
-                            <div className="area">
-                                <button className="button-23">
-                                    <a href="https://luteceweb.neocities.org/" className="link"><SiVercel size={35}/></a>
-                                </button>
-                                <button className="button-23">
-                                    <a href="https://github.com/L-Lutece/neoCities" className="link"><SiGithub size={35}/></a>
-                                </button>
-                            </div>
-                        </div>
-
-                        <div className="block_4">
-                            <div className="title_block">
-                                <h4>Lance</h4>
-                            </div>    
-                            <div className="image_block">
-                                <video src="./images/video1.mp4" controls></video>
-                            </div>
-                            <div className="area">
-                                <button className="button-23">
-                                    <a href="#" className="link"><SiVercel size={35}/></a>
-                                </button>
-                                <button className="button-23">
-                                    <a href="https://github.com/L-Lutece/Lance" className="link"><SiGithub size={35}/></a>
+                                    <a href="https://github.com/L-Lutece/JSCloack" className="link"><SiGithub size={35}/></a>
                                 </button>
                             </div>
                         </div>

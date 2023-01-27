@@ -7,7 +7,7 @@
 
 #fotter_text {
     padding: 30px;
-    font-size: 40px;
+    font-size: 25px;
     color: rgb(136, 136, 136);
 }
 
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(60, 57, 57);
+    background-color: #2a2828;
 }
 
 @media (max-width: 425px) {

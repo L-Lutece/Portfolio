@@ -13,8 +13,9 @@
 .sectionProject {
     position: relative;
     width: 1368px;
+    top: 20px;
     background-color: #2a2828;
-    height: 950px;
+    height: 600px;
     justify-content: center;
     align-items: center;
     left: 70px;
