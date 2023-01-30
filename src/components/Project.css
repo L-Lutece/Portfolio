@@ -37,19 +37,17 @@ video {
 }
 .explain_icons_area {
     position: relative;
-    width: 90%;
+    width: 96%;
     height: 80px;
     padding: 20px;
-    background-color: #3c3939;
+    /*background-color: #3c3939;*/
     font-size: 20px;
-    color: #aaa2a2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    left: 60px;
+    color: aliceblue;
+    left: 28px;
 }
 .explain_icons_area p {
     position: relative;
+    width: 100%;
     left: 35px;
 }
 .block_1 {
