@@ -1,7 +1,7 @@
 import React from "react";
 import './Stack.css';
-import { DiMysql, DiSass, DiLess, DiPython} from "react-icons/di";
-import { DiTerminal, DiReact, DiCss3, DiJavascript1, DiNodejsSmall, DiBootstrap, DiKrakenjsBadge, DiVisualstudio} from "react-icons/di";
+import { DiMysql, DiSass, DiLess, DiPython, DiDjango} from "react-icons/di";
+import { DiTerminal, DiReact, DiCss3, DiJavascript1, DiNodejsSmall, DiBootstrap, DiKrakenjsBadge, DiVisualstudio, DiPostgresql} from "react-icons/di";
 import { DiHtml5, DiGit, DiGithubBadge, DiNpm, DiJqueryLogo} from "react-icons/di";
 
 function Stack() {
@@ -28,6 +28,7 @@ function Stack() {
                                 <DiSass color="pink" title="Sass" fontSize={100} id="icon"/>
                                 <DiLess color="blue" title="Less" fontSize={100} id="icon"/>
                                 <DiPython color="yellow" title="Python" fontSize={100} id="icon"/>
+                                <DiDjango color="green" title="Django" fontSize={100} id="icon"/>
                             </div>
                             <div className="sBlock">
                                 <DiHtml5 color="#f56008" title="Html" fontSize={100} id="icon"/>
@@ -56,6 +57,7 @@ function Stack() {
                                 <DiBootstrap color="#8f12c3" title="Bootstrap" fontSize={100} id="icon"/>
                                 <DiKrakenjsBadge color="#2285da" title="Git Kraken" fontSize={100} id="icon"/>
                                 <DiVisualstudio color="blue" title="VisualStudio" fontSize={100} id="icon"/>
+                                <DiPostgresql color="#4a44be" title="Postgree" fontSize={100} id="icon"/>
                             </div>
                         </div>
                     </div>
