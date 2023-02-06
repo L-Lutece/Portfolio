@@ -123,7 +123,7 @@ h4 {
 
 #icon:hover {
     transition: transform .5s;
-    transform: scale(1.5)
+    transform: scale(1.2)
 }
 
 .sBlock {
