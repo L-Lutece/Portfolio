@@ -8,7 +8,7 @@ function App() {
       <div className="App">
         <div className="sectionApp">
           <h3 className="name">Lucas Carrilho</h3>
-          <p className="description">Desenvolvedor Front-End</p> 
+          <p className="description">Desenvolvedor Full-Stack</p> 
           <div className='logo'>
           </div>
         </div>

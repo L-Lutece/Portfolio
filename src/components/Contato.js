@@ -1,5 +1,6 @@
 import React from "react";
 import './Contato.css';
+import Cv from "../images/CVLucasCarrilho.pdf";
 
 function Contato() {
     return (
@@ -16,7 +17,7 @@ function Contato() {
                         <div className="list1">    
                             <a href="https://www.linkedin.com/in/lutece771/">LinkedIn</a>
                             <a href="https://github.com/L-Lutece">Github</a>
-                            <a href="https://1drv.ms/w/s!AoeTPjBJhtYXg7tALt__Oo5KCMz7Ww?e=8oRwbf">Currículo</a>
+                            <a href={Cv} download>Currículo</a>
                         </div>
                     </div>    
                 </div>
