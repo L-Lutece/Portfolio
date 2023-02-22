@@ -9,7 +9,7 @@ function Contato() {
                     <h3 className="title">CONTATO</h3>
                     <div className="hold">
                         <div className="list">
-                            <p> Lucas.carrilho771@outlook.com | (31) 99795-3443</p>    
+                            <p> lucas.carrilho7@outlook.com | (31) 99795-3443</p>    
                         </div>
                     </div>
                     <div className="hold1">
