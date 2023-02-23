@@ -15,7 +15,7 @@ function Contato() {
                     </div>
                     <div className="hold1">
                         <div className="list1">    
-                            <a href="https://www.linkedin.com/in/lutece771/">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/lucas-desenvolvedor-python/">LinkedIn</a>
                             <a href="https://github.com/L-Lutece">Github</a>
                             <a href={Cv} download>Currículo</a>
                         </div>

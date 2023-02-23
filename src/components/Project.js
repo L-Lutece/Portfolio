@@ -11,7 +11,7 @@ function Project() {
                 <div className="sectionProject">
                     <h3 className="title">PROJETOS</h3>
                     <div className="explain_icons_area">
-                        <p>Para ter uma melhor interação com os projetos dessa sessão, você pode apertar no ícone do “Vercel” <SiVercel size={20}></SiVercel>  para vizualizar o projeto no seu computador, ou no ícone do “Github” <SiGithub size={20}></SiGithub>  para navegar pelo código fonte, historico de commits e outros... </p>
+                        <p>Para ter uma melhor interação com os projetos dessa sessão, você pode apertar no ícone do “Vercel” <SiVercel size={20}></SiVercel>  para vizualizar o projeto em sua maquina, ou no ícone do “Github” <SiGithub size={20}></SiGithub>  para navegar pelo código fonte, historico de commits e outros... </p>
                     </div>
                     <div className="sovt_project">
                         
