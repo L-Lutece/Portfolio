@@ -9,7 +9,6 @@ import Stack from './components/Stack';
 import Project from './components/Project';
 import Xp from './components/Xp';
 import Contato from './components/Contato';
-import Fotter from './components/Fotter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +20,6 @@ root.render(
      <Project />
      <Xp />
      <Contato />
-     <Fotter />
    
   </React.StrictMode>
 );

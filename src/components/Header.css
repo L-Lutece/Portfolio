@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,700&family=Outfit:wght@400;700&display=swap');
 
 .Header {
-    background-color: rgb(60, 57, 57);
+    background-color: rgb(255, 255, 255);
     font-family: 'Epilogue', sans-serif;
     height: 50px;
     width: 100%;
@@ -19,7 +19,7 @@
 
 a {
     text-decoration: none;
-    color: rgb(172, 172, 172);
+    color: #323330;
     padding: 20px;
     
 }

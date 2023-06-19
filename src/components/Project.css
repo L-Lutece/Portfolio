@@ -5,7 +5,7 @@
     font-family: 'Epilogue', sans-serif;
 }
 .App {
-    background-color: #202020;
+    background-color: #ededed;
     height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -13,9 +13,8 @@
 .sectionProject {
     position: relative;
     width: 1368px;
-    top: 20px;
-    background-color: #2a2828;
-    height: 700px;
+    background-color: #ededed;
+    height: 600px;
     justify-content: center;
     align-items: center;
     left: 70px;
@@ -25,7 +24,7 @@ video {
     height: 100%;
     left: 0px;
     right: 0px;
-    background-color: #878080;
+    background-color: #ededed;
 }
 .sovt_project {
     position: relative;
@@ -41,7 +40,6 @@ video {
     width: 96%;
     height: 80px;
     padding: 20px;
-    /*background-color: #3c3939;*/
     font-size: 20px;
     color: aliceblue;
     left: 15px;
@@ -50,6 +48,7 @@ video {
     position: relative;
     width: 100%;
     left: 35px;
+    color: #323330;
 }
 .block_1 {
     position: relative;
@@ -84,8 +83,11 @@ video {
     display: flex;
     justify-content: center;
 }
+.title h3{
+    color: #323330;
+}
 .title_block h4 {
-    color: rgb(155, 152, 152);
+    color: #323330;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
@@ -146,13 +148,13 @@ video {
         left: 0px;
         top: 0px;
         flex-direction: column;
-        background-color: #2a2828;
+        background-color: #ededed;
         height: auto;
         justify-content: center;
         align-items: center;
     }
     .title {
-        background-color: none;
+        background-color: #ededed;
         width: 100%;
     }
     .explain_icons_area {

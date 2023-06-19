@@ -3,70 +3,66 @@
 * {
     font-family: 'Epilogue', sans-serif;
 }
-
 .App {
-    background-color:rgb(32, 32, 32);
+    background-color:#ededed;
     height: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
 }
-
 .sectionApp {
     position: relative;
     width: 90%;
     height: 750px;
-    background-color: rgb(42, 40, 40);
+    background-color: #ededed;
     justify-content: center;
     align-items: center;
     top: 50px;
     left: 70px;
 }
-
-.countSovt {
-    position: absolute;
-    color: aliceblue;
-    width: 300px;
-    height: 79px;
-    background-color: rgb(32, 32, 32);
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-#count {
-    color: yellow;
-}
-
 .name {
     position: relative;
     font-size: 80px;
     left: 120px;
     top: 280px;
-    color: rgb(251, 251, 251);
+    color: #323330;
 }
-
 .description {
     position: relative;
     font-size: 25px;
-    left: 115px;
+    left: 120px;
     top: 290px;
     font-style: italic;
-    color: rgb(157, 156, 152);
+    color: #323330;
 }
-
-
-.logo { /*c*/
-    width: 500px;
-    bottom: 90px;
+.phone {
     position: relative;
-    left: 750px;
-    height: 650px;
-    background: url('../images/logo_transparent.png') no-repeat center;
-    background-size: cover;
+    width: 300px;
+    height: 600px;
+    top: -50px;
+    left: 1000px;
 }
-
-
+/*indugency*/
+.text_phone{
+    display: none;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 87% 100%, 50% 75%, 0% 75%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 87% 100%, 50% 75%, 0% 75%);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #364f6b;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    left: 760px;
+    top: 93px;
+}
+.text_phone h3{
+    position: relative;
+    padding: 8px;
+    top: -20px;
+    color: white;
+}
 
 @media (max-width: 600px) {
 
@@ -77,7 +73,7 @@
         flex-direction: column;
         width: 100%;
         height: 650px;
-        background-color: rgb(42, 40, 40);
+        background-color: #ededed;
         top: 50px;
         left: 0px;
     }
@@ -87,7 +83,7 @@
         left: 0px;
         font-size: 40px;
         top: 20px;
-        color: rgb(251, 251, 251);
+        color: #323330;
     }
 
     .description {
@@ -95,11 +91,12 @@
         font-size: 20px;
         left: 0px;
         top: 30px;
-        color: rgb(157, 156, 152);
+        color: #323330;
     }
 
     .logo {
         position: relative;
+        display: block;
         left: 0px;
         top: 40px;
         width: 250px;
