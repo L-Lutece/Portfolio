@@ -3,6 +3,7 @@ import './Stack.css';
 import { DiMysql, DiSass, DiLess, DiPython, DiDjango} from "react-icons/di";
 import { DiTerminal, DiReact, DiCss3, DiJavascript1, DiNodejsSmall, DiBootstrap, DiKrakenjsBadge, DiVisualstudio, DiPostgresql} from "react-icons/di";
 import { DiHtml5, DiGit, DiGithubBadge, DiNpm, DiJqueryLogo} from "react-icons/di";
+import { SiFlask } from "react-icons/si";
 
 function Stack() {
 
@@ -58,6 +59,8 @@ function Stack() {
                                 <DiKrakenjsBadge color="#2285da" title="Git Kraken" fontSize={100} id="icon"/>
                                 <DiVisualstudio color="blue" title="VisualStudio" fontSize={100} id="icon"/>
                                 <DiPostgresql color="#4a44be" title="Postgree" fontSize={100} id="icon"/>
+                                <SiFlask color="black" title="Flask" fontSize={90} id="icon"/>
+                                
                             </div>
                         </div>
                     </div>
