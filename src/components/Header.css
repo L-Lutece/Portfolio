@@ -15,20 +15,19 @@
     align-items: center;
     justify-content: center;
 }
-
-
 a {
     text-decoration: none;
     color: #323330;
-    padding: 20px;
-    
+    padding: 20px;   
 }
-
+#link_header:hover {
+    color:  #364f6b;
+    background-color: transparent;
+}
 a:hover {
     color: rgb(254, 255, 255);
     background-color:  rgb(60, 57, 57); 
 }
-
 @media (max-width: 425px) {
     .Header {
         font-size: 10px;

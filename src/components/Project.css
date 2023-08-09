@@ -52,6 +52,7 @@ video {
 }
 .block_1 {
     position: relative;
+    background-color: #6f6d6d;
     width: 600px;
     height: 400px;
     top: 20px;
@@ -59,6 +60,8 @@ video {
 }
 .block_2 {
     position: relative;
+    background-color: #6f6d6d;
+    border-radius: 20px;
     width: 600px;
     height: 400px;
     top: 20px;
@@ -87,7 +90,7 @@ video {
     color: #323330;
 }
 .title_block h4 {
-    color: #323330;
+    color: #f4f4f4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
@@ -128,7 +131,7 @@ video {
 }
 .link:hover {
     text-decoration: none!important;
-    background-color: #6f6d6d;
+    background-color: transparent;
 }
 .github_buttom{
     position: relative;

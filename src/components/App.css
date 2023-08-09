@@ -19,6 +19,21 @@
     top: 50px;
     left: 70px;
 }
+.mobile_e {
+    position: absolute;
+    color: #364f6b;
+    font-size: 28px;
+    left: 509px;
+    top: 561px
+}
+.mobile_p {
+    position: absolute;
+    color: #364f6b;
+    font-size: 28px;
+    left: 506px;
+    top: 564px;
+    opacity: 0.3;
+}
 .name {
     position: relative;
     font-size: 80px;

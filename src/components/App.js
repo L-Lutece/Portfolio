@@ -8,6 +8,8 @@ function App() {
     <div clasName="containerApp">
       <div className="App">
         <div className="sectionApp">
+          <h3 className='mobile_e'>Esse site tem uma versão mobile!</h3>
+          <h3 className='mobile_p'>Esse site tem uma versão mobile!</h3>
           <h3 className="name">Lucas Carrilho</h3>
           <p className="description">Desenvolvedor Full-Stack Python</p> 
           <div className='logo'>

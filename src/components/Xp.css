@@ -13,6 +13,7 @@
 
 .sectionXp {
     position: relative;
+    top: 40px;
     width: 90%;
     height: 300px;
     background-color: #ededed;
