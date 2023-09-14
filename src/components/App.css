@@ -19,19 +19,40 @@
     top: 50px;
     left: 70px;
 }
+.mobile_text_form1{
+    position: absolute;
+    top: 25px;
+    border-radius: 22px;
+    width: 157px;
+    height: 252px;
+    left: 1098px;
+    background-color: #ffffff;
+}
+.mobile_text_form2{
+    position: absolute;
+    top: 50px;
+    width: 100px;
+    left: 1180px;
+    height: 100px;
+    border-top: 65px solid transparent;
+    border-left: 100px solid #ffffff;
+    border-bottom: 79px solid transparent;
+}
 .mobile_e {
     position: absolute;
+    max-width: 125px;
     color: #364f6b;
     font-size: 28px;
-    left: 509px;
-    top: 561px
+    left: 1119px;
+    top: 35px
 }
 .mobile_p {
     position: absolute;
+    max-width: 125px;
     color: #364f6b;
     font-size: 28px;
-    left: 506px;
-    top: 564px;
+    left: 1120px;
+    top: 36px;
     opacity: 0.3;
 }
 .name {
@@ -51,10 +72,10 @@
 }
 .phone {
     position: relative;
-    width: 300px;
-    height: 600px;
-    top: -50px;
-    left: 1000px;
+    width: 137px;
+    height: 254px;
+    top: -83px;
+    left: 1284px;
 }
 /*indugency*/
 .text_phone{
